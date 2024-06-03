@@ -1,0 +1,25 @@
+/*
+ * Customize the looks of the app.
+ *
+ * See for examples: https://versions.bulma.io/0.7.0/documentation/overview/customize/
+ */
+// Import the initial variables
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+// Define project theme colors
+$hz-background : rgb(124, 9, 18);
+
+// Define Bulma Colors, using standard and/or project theme colors
+$body-background-color: black;
+$primary: $hz-background;
+$primary-invert: white;
+
+// Typography. You can use any font here, but for demonstration purposes, we use some nice Google font
+// (check https://fonts.google.com/ for fonts)
+//@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+$family-primary: 'Rambla', sans-serif;
+
+// Finally import the rest of the derived variables
+//@import "~bulma/sass/utilities/derived-variables";
